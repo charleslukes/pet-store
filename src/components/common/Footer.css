@@ -1,8 +1,8 @@
 .footer{
   display: flex;
   height: 40vh;
-  border: 1px solid black;
-  background: #eee;
+  background-color: #f06317;
+
 }
 
 .about {
@@ -31,6 +31,7 @@
   height: 2rem;
   border-radius: 13px;
   outline: none;
+  border: none;
 }
 
 .first{
@@ -47,7 +48,7 @@
     height: 100%;
     width: 100%;
     text-align: center;
-    background: #eee;
+    background-color: #f06317;
   }
 
   .searchBar{
