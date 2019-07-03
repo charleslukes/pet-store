@@ -6,11 +6,23 @@
 }
 
 .bar-titles li{
-  margin: 1%;
-  padding: 1%;
+  margin-bottom: 1rem;
+  padding: 1rem;
   list-style: none;
 }
 
 .icon{
   flex: 2;
+}
+
+@media only screen and (max-width: 795px) {
+  .bar-titles{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .bar-titles li{
+    padding: 1%;
+  }
 }
