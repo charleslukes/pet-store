@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='about'>
         <div className='first'>About us</div>
-        <div>
+        <div className='about-text'>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
           Molestias velit ex distinctio, quisquam debitis
           quidem incidunt? Voluptate labore perspiciatis, 
