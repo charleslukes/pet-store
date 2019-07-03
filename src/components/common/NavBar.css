@@ -1,0 +1,16 @@
+.bar-titles{
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  background-color: #eee;
+}
+
+.bar-titles li{
+  margin: 1%;
+  padding: 1%;
+  list-style: none;
+}
+
+.icon{
+  flex: 2;
+}
