@@ -1,0 +1,97 @@
+.main-header{
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  position: relative;
+}
+
+.main-header img{
+  width: 100%;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: brightness(55%);
+}
+
+.header-title{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.header-title h1{
+  font-size: 55px;
+}
+
+.header-title p{
+  font-size: 19px;
+}
+
+.header-search{
+  display: inline-block;
+  margin: 1rem;
+}
+
+.header-search input{
+  width: 25rem;
+  height: 2rem;
+  border-radius: 3rem;
+  margin-right: 1rem;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.7)
+}
+
+.header-search button{
+  height: 2rem;
+  width: 3.3rem;
+  border-radius: 3rem;
+  font-weight: bold;
+  outline: none;
+}
+
+
+@media only screen and (max-width: 795px) {
+
+  .main-header img{
+    height: 275px;
+  }
+
+  .header-title{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+  
+  .header-title h1{
+    font-size: 25px;
+  }
+
+  .header-search{
+    display: inline-block;
+    margin: .5rem;
+  }
+
+  .header-title p{
+    font-size: 12px;
+  }
+  
+  .header-search input{
+    width: 10rem;
+    height: 1.1rem;
+    border-radius: 3rem;
+    margin-right: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.7)
+  }
+
+  .header-search button{
+    height: 1.2rem;
+    width: 3.3rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    outline: none;
+  }
+}
