@@ -18,7 +18,7 @@
 }
 
 .contact label{
-  margin-right: .5rem
+  margin-right: .2rem;
 }
 
 .searchBar{
@@ -30,6 +30,7 @@
   width: 20rem;
   height: 2rem;
   border-radius: 13px;
+  outline: none;
 }
 
 .first{
@@ -37,3 +38,27 @@
   padding-bottom: 1rem;
   font-weight: bold;
 }
+
+/* small screen sizes */
+@media only screen and (max-width: 795px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: #eee;
+  }
+
+  .searchBar{
+     order: -1;
+  }
+
+  .searchBar input{
+    width: 10rem;
+  }
+
+  
+}
+
+
