@@ -1,8 +1,9 @@
+
 .bar-titles{
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
-  background-color: #eee;
+  background-color: #f06317;
 }
 
 .bar-titles li{
