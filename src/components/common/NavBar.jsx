@@ -5,7 +5,7 @@ const NavBar = () => {
 
 
   return (
-    <div>
+    <div className='main-nav'>
       <ul className='bar-titles'>
         <li className='icon'>9pets</li>
         <li>About</li>
