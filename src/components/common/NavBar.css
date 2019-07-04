@@ -3,11 +3,11 @@
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
-  background-color: #f06317;
+  background-color: #df5e18;
 }
 
 .bar-titles li{
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   padding: 1rem;
   list-style: none;
 }
