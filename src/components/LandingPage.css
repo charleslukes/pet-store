@@ -1,3 +1,7 @@
+.main-landing{
+  height: 75rem;
+}
+
 .landing-nav{
   position: fixed;
   top: 0;
@@ -24,17 +28,40 @@
 
 }
 
-.info-section p{
-  /* line-height: 2; */
+.main-info{
+  line-height: 1.5;
 }
 
 .landing-sales{
-  text-align: center;
-  border: 1px solid black;
-  height: 50rem;
+  
+  height: 100%;
   margin-top: 5rem;
 }
 
-.landing-sales p{
+.landing-sales-title{
+  text-align: center;
   font-size: 2rem;
+}
+
+.sales-card{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.sales-btn{
+  text-align: center;
+}
+
+.sales-btn button{
+  background-color: #df5e18; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
 }
