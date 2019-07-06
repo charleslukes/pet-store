@@ -1,0 +1,23 @@
+.main-blog{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 2px;
+  width: 50rem;
+  margin-top: 1rem;
+}
+
+.blog-details{
+  margin: 1rem;
+}
+
+.blog-img{
+  width: 200px;
+  height: 170px;
+}
+
+.blog-posts{
+  margin-top: .5rem;
+  line-height: 1.4;
+  font-size: 15px;
+}
