@@ -1,7 +1,8 @@
 .footer{
   display: flex;
   height: 40vh;
-  background-color: #df5e18;
+  background-color: #404a53;
+  color: white;
 }
 
 .about {
@@ -31,6 +32,7 @@
   border-radius: 13px;
   outline: none;
   border: none;
+  font-size: 15px;
 }
 
 .first{
@@ -46,6 +48,7 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
+    margin-top: 72vh;
     text-align: center;
     background-color: #f06317;
   }
