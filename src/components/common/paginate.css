@@ -1,0 +1,14 @@
+.paginate-ul {
+ display: flex;
+ justify-content: flex-start;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+
+.paginate-ul li{
+  list-style: none;
+  padding: 7px;
+  border: 1px solid #ef3652;
+  width: 2rem;
+  margin-right: 2px;
+}
