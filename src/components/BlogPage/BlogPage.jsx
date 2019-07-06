@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './BlogPage.css';
-import BlogPost from '../Blog Posts/BlogPost';
+import BlogPost from '../BlogPosts/BlogPost';
 import Pagination from '../common/pagination';
 
 
