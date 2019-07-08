@@ -6,6 +6,7 @@ import SearchPage from './components/SearchPage/SearchPage';
 import BlogPage from './components/BlogPage/BlogPage';
 import LandingPage from './components/Landing/LandingPage';
 import SalesInfo from './components/SalesInfo/SalesInfo'
+import ContactPage from './components/Contact/contact'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/searchpage' component={SearchPage} />
           <Route path='/blogpage' component={BlogPage} />
           <Route path='/salesinfo' component={SalesInfo} />
+          <Route path='/contactpage' component={ContactPage} />
         </Switch>
         <div className='foot-div'>
         <Footer />
