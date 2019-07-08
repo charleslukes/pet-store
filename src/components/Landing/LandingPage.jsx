@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../common/Header'
-import SalesCard from '../SalesCard';
+import SalesCard from '../SalesCard/SalesCard';
 import './LandingPage.css'
 import ducksdog from '../common/img/ducksdog.jpg';
 import womancat from '../common/img/womancat.jpg'
