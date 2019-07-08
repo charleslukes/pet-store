@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.css'
-import dog1 from './img/dogs1.jpg'
+import tinydog from './img/tinydog.jpg'
 
 const Header = () => {
 
   return (
     <div className='main-header'>
       <header>
-      <img src={dog1} alt="dogs and cats"/>
+      <img src={tinydog} alt="dogs and cats"/>
       <div className='header-title'>
         <h1>Welcome to 9pets</h1>
         <p>first 9ja pet community</p>
