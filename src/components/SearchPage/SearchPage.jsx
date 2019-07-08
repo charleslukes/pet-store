@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import roftl from '../common/img/roftl.jpg';
-import SalesCard from '../SalesCard';
+import SalesCard from '../SalesCard/SalesCard';
 import Pagination from '../common/pagination';
 import './SearchPage.css';
 
