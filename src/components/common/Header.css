@@ -29,31 +29,6 @@
   font-size: 19px;
 }
 
-.header-search{
-  display: inline-block;
-  margin: 1rem;
-}
-
-.header-search input{
-  width: 25rem;
-  height: 2rem;
-  border-radius: 3rem;
-  margin-right: 1rem;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding-left: .7rem;
-}
-
-.header-search button{
-  height: 2rem;
-  width: 3.3rem;
-  border-radius: 3rem;
-  font-weight: bold;
-  outline: none;
-}
-
 
 @media only screen and (max-width: 795px) {
 
@@ -78,23 +53,5 @@
 
   .header-title p{
     font-size: 12px;
-  }
-  
-  .header-search input{
-    width: 10rem;
-    height: 1.1rem;
-    border-radius: 3rem;
-    margin-right: 0.5rem;
-    border: none;
-    outline: none;
-    background-color: rgba(255, 255, 255, 0.7)
-  }
-
-  .header-search button{
-    height: 1.2rem;
-    width: 3.3rem;
-    border-radius: 3rem;
-    font-weight: bold;
-    outline: none;
   }
 }
