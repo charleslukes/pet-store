@@ -1,14 +1,17 @@
 .footer{
   display: flex;
-  height: 40vh;
+  height: 35vh;
   background-color: #404a53;
   color: white;
+  padding: 4rem;
+  font-family: Raleway;
 }
 
 .about {
-  flex: 1;
+  flex: 1.2;
   padding: 1rem;
   line-height: 1.5;
+  width: 20px;
 }
 
 .contact{
@@ -18,7 +21,7 @@
 }
 
 .contact label{
-  margin-right: .2rem;
+  margin-right: .7rem;
 }
 
 .searchBar{
@@ -27,19 +30,48 @@
 }
 
 .searchBar input{
-  width: 20rem;
+  width: 30rem;
+  cursor: pointer;
   height: 2rem;
-  border-radius: 13px;
   outline: none;
   border: none;
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .first{
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: bold;
+  font-size: 18px;
 }
+
+.last-foot-row{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 15vh;
+  background-color: #3c464f;
+  border-top: 1px solid #404a53;
+  color: #fff;
+  padding: 5rem;
+}
+
+.last-foot-row ul{
+  display: flex;
+  list-style: none;
+}
+
+.last-foot-row li{
+  padding-right: 10px;
+}
+
+.last-foot-row li:hover{
+  cursor: pointer;
+  color: #ef3652;
+}
+
+
 
 /* small screen sizes */
 @media only screen and (max-width: 795px) {
