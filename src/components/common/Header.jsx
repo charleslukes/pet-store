@@ -11,10 +11,6 @@ const Header = () => {
       <div className='header-title'>
         <h1>Welcome to 9pets</h1>
         <p>first 9ja pet community</p>
-      <div className='header-search'>
-        <input type="text" name='searchbox' placeholder='Search...' />
-        <button>Search</button>
-      </div>
       </div>
       </header>
     </div>
